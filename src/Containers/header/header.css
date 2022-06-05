@@ -1,0 +1,109 @@
+.mermaid__header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+.mermaid__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 5rem;
+    align-items: center;
+
+
+}
+
+.mermaid__header-content h1 {
+    /*font-family: var(--font-family);*/
+    font-family: HIRO MISAKE;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 75px;
+    text-align: center;
+    word-wrap: normal;
+    color:rgb(0, 0, 0);
+    letter-spacing: 0.30em;
+    margin-top: 5rem;   
+}
+
+.mermaid__header-discord {
+    
+    width:fit-content;
+    position: center;
+    margin-top: 13rem;
+    text-align: center;
+}
+
+
+.mermaid__header-discord button {
+   
+    width: 100%;
+    min-height: 50px;
+     /*font-family: var(--font-family);*/
+    font-family: HIRO MISAKE;
+    letter-spacing:0.30rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: black;
+    border: 2px solid #000000;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    align-self: center;
+    
+}
+.mermaid__header-discord button:hover{
+    animation: butoni_discord 0.5s ease-in infinite alternate;
+}
+
+@keyframes butoni_discord{
+    0% {
+        box-shadow: 0 0 8px #000000, 0 0 15px rgb(0, 0, 0), 0 0 20px rgb(216, 0, 0)
+    }
+    100%{
+        box-shadow: 0 0 5px #000000, 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(216, 0, 0)
+    }
+}
+@media screen and (max-width: 1050px) {
+    .mermaid__header {
+        flex-direction: column;
+    }
+
+    .mermaid__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mermaid__header-content h1 {
+        font-size: 55px;
+        line-height: 60px;
+   
+    }
+
+
+    .mermaid__header-discord button {
+        font-size: 16px;
+        line-height: 24px;
+     
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .mermaid__header-content h1 {
+        font-size: 45px;
+        line-height: 48px;
+
+    }
+
+  
+    .mermaid__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

@@ -1,0 +1,419 @@
+.roadmap-container{
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    
+}
+
+.roadmap-container2{
+    padding-bottom: 6rem;
+    max-width: 112rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.roadmap-header{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.roadmap-header-title{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1.5rem;
+    height: 100%;
+}
+.roadmap-header-title h3{
+    font-size: 3.75rem;
+    line-height: 1;
+    letter-spacing: -.025em;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: HIRO MISAKE;
+    padding-bottom: 1rem;
+    top: 0;
+    margin: 0;
+}
+
+.roadmap-header-description{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: HIRO MISAKE;
+    text-align: left;
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.roadmap-header-description p{
+    font-weight: 300;
+    margin: 0;
+}
+
+.roadmap-body{
+    display: block;
+}
+.roadmap-body1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.roadmap-body2{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    height: 614px;
+}
+.roadmap-body2-phase1{
+    position: absolute;
+    will-change: transform, width, height, opacity;
+    opacity: 1;
+    width: 365px;
+    height: 360px;
+    z-index: 0;
+    transform: translate3d(6px, 6px, 0px);
+}
+.roadmap-body2-phase11{
+    cursor: pointer;
+    transition-duration: .1s;
+    --tw-text-opacity: 1;
+    color: rgba(0,0,0,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(235,231,224,var(--tw-bg-opacity));
+    overflow: hidden;   
+    height: 100%;
+}
+.roadmap-body2-phase12{
+    will-change: opacity, transform;
+    opacity: 1;
+    padding: 1.5rem;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+
+.roadmap-body2-phase12 #aaa {
+    opacity: .1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-family: HIRO MISAKE;
+    padding-bottom: 0.25rem;
+    margin-left: -0.25rem;
+    margin: 0;
+}
+.roadmap-body2-phase12 #bbb {
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: HIRO MISAKE;
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+
+.roadmap-body2-phase3{
+    position: absolute;
+    will-change: transform, width, height, opacity;
+    opacity: 1;
+    width: 365px;
+    height: 224px;
+    z-index: 1;
+    transform: translate3d(377px, 6px, 0px);
+}
+.roadmap-body2-phase31{
+    cursor: pointer;
+    transition-duration: .1s;
+    --tw-text-opacity: 1;
+    color: rgba(0,0,0,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(235,231,224,var(--tw-bg-opacity));
+    overflow: hidden;
+    height: 100%;
+}
+.roadmap-body2-phase32{
+    will-change: opacity, transform;
+    opacity: 1;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+.roadmap-body2-phase32 #aaa {
+    opacity: .1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-family: HIRO MISAKE;
+    padding-bottom: 0.25rem;
+    margin-left: -0.25rem;
+    margin: 0;
+}
+.roadmap-body2-phase32 #bbb {
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: HIRO MISAKE;
+    align-items: center;
+    display: flex;
+}
+.roadmap-body2-phase5{
+    position: absolute;
+    will-change: transform, width, height, opacity;
+    opacity: 1;
+    width: 365px;
+    height: 360px;
+    z-index: 2;
+    transform: translate3d(747px, 6px, 0px);
+}
+.roadmap-body2-phase51{
+    cursor: pointer;
+    transition-duration: .1s;
+    --tw-text-opacity: 1;
+    color: rgba(0,0,0,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(235,231,224,var(--tw-bg-opacity));
+    overflow: hidden;
+    height: 100%;
+}
+.roadmap-body2-phase52{
+    will-change: opacity, transform;
+    opacity: 1;
+    padding: 1.5rem;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+.roadmap-body2-phase52 #aaa {
+    opacity: .1;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-family: HIRO MISAKE;
+    padding-bottom: 0.25rem;
+    margin-left: -0.25rem;
+    margin: 0;
+}
+.roadmap-body2-phase52 #bbb{
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: HIRO MISAKE;
+    align-items: center;
+    display: flex;
+}
+
+.roadmap-body2-phase6{
+    position: absolute;
+    will-change: transform, width, height, opacity;
+    opacity: 1;
+    width: 365px;
+    height: 360px;
+    z-index: 3;
+    transform: translate3d(1118px, 6px, 0px);
+}
+.roadmap-body2-phase61{
+    cursor: pointer;
+    transition-duration: .1s;
+    --tw-text-opacity: 1;
+    color: rgba(0,0,0,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(235,231,224,var(--tw-bg-opacity));
+    overflow: hidden;
+    height: 100%;
+}
+.roadmap-body2-phase62{
+    will-change: opacity, transform;
+    opacity: 1;
+    padding: 1.5rem;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+.roadmap-body2-phase62 #aaa {
+    opacity: .1;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-family: HIRO MISAKE;
+    padding-bottom: 0.25rem;
+    margin-left: -0.25rem;
+    margin: 0;
+}
+.roadmap-body2-phase62 #bbb {
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: HIRO MISAKE;
+    align-items: center;
+    display: flex;
+}
+.roadmap-body2-phase2{
+    position: absolute;
+    will-change: transform, width, height, opacity;
+    opacity: 1;
+    width: 365px;
+    height: 236px;
+    z-index: 4;
+    transform: translate3d(6px, 372px, 0px);
+}
+.roadmap-body2-phase21{
+    cursor: pointer;
+    transition-duration: .1s;
+    --tw-text-opacity: 1;
+    color: rgba(0,0,0,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(235,231,224,var(--tw-bg-opacity));
+    overflow: hidden;
+    height: 100%;
+}
+.roadmap-body2-phase22{
+    will-change: opacity, transform;
+    opacity: 1;
+    padding: 1.5rem;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+.roadmap-body2-phase22 #aaa {
+    opacity: .1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-family: HIRO MISAKE;
+    padding-bottom: 0.25rem;
+    margin-left: -0.25rem;
+    margin: 0;
+}
+.roadmap-body2-phase22 #bbb {
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: HIRO MISAKE;
+    align-items: center;
+    display: flex;
+}
+.roadmap-body2-phase4{
+    position: absolute;
+    will-change: transform, width, height, opacity;
+    opacity: 1;
+    width: 365px;
+    height: 372px;
+    z-index: 5;
+    transform: translate3d(377px, 236px, 0px);
+}
+.roadmap-body2-phase41{
+    cursor: pointer;
+    transition-duration: .1s;
+    --tw-text-opacity: 1;
+    color: rgba(0,0,0,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(235,231,224,var(--tw-bg-opacity));
+    overflow: hidden;
+    height: 100%;
+}
+.roadmap-body2-phase42{
+    will-change: opacity, transform;
+    opacity: 1;
+    padding: 1.5rem;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+.roadmap-body2-phase42 #aaa {
+    opacity: .1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-family: HIRO MISAKE;
+    padding-bottom: 0.25rem;
+    margin-left: -0.25rem;
+    margin: 0;
+}
+.roadmap-body2-phase42 #bbb {
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: HIRO MISAKE;
+    align-items: center;
+    display: flex;
+}
+.roadmap-body2-phase7{
+    position: absolute;
+    will-change: transform, width, height, opacity;
+    opacity: 1;
+    width: 735px;
+    height: 236px;
+    z-index: 6;
+    transform: translate3d(747px, 372px, 0px);
+}
+.roadmap-body2-phase71{
+    cursor: pointer;
+    transition-duration: .1s;
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(192,53,64,var(--tw-bg-opacity));
+    overflow: hidden;
+    height: 100%;
+}
+.roadmap-body2-phase72{
+    will-change: opacity, transform;
+    opacity: 1;
+    padding: 1.5rem;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+.roadmap-body2-phase72 #aaa {
+    opacity: .1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-family: HIRO MISAKE;
+    padding-bottom: 0.25rem;
+    margin-left: -0.25rem;
+    margin: 0;
+}
+.roadmap-body2-phase72 #bbb {
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: HIRO MISAKE;
+    align-items: center;
+    display: flex;
+}

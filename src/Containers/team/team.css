@@ -1,0 +1,50 @@
+.team-container{
+    width:100%;
+    height: 800px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.team-title{
+    text-align: left;
+    font-family: HIRO MISAKE;
+    font-size: 32px;
+    margin-left: 3rem;
+    padding-top: 3rem;
+    color: #fff;
+}
+.team-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3rem;
+    margin-left: 8rem;
+}
+.team-1-Aulon img{
+    height: 70%;
+    width: 70%;
+}
+.team-1-Kristi img{
+    height: 70%;
+    width: 70%;
+}
+.team-1-Fjorin img{
+    height: 70%;
+    width: 70%;
+}
+.team-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 6rem;
+    margin-left: 20rem;
+}
+.team-2-Bushi img{
+    height: 50%;
+    width: 50%;
+}
+.team-2-Erion img{
+    height: 50%;
+    width: 50%;
+}
