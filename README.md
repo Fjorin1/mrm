@@ -1,5 +1,6 @@
-# Bitte vorher react-icons installieren
+# Bitte vorher react-icons und react scripts installieren
 
+npm install react scripts
 npm install react-icons
 
 # Prototyp einer Website die ich mit einem Kollege vor 2 jahren entworfen habe, der war für eine NFT projekt ausgedacht
