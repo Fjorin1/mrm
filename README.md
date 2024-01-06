@@ -2,7 +2,7 @@
 
 #npm install react-icons
 
-# Getting Started with Create React App
+# Prototyp einer Website die ich mit eine Kollege vor 2 jahre entworfen habe, der war für eine NFT projekt ausgedacht
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
