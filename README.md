@@ -3,7 +3,7 @@
 npm install react scripts
 npm install react-icons
 
-# Prototyp einer Website die ich mit einem Kollege vor 2 jahren entworfen habe, der war für eine NFT projekt ausgedacht
+# Prototyp einer Website die ich mit einem Kollege vor 2 jahren entworfen habe, der für eine NFT projekt ausgedacht war
 ![Screenshot 2024-01-06 160233](https://github.com/Fjorin1/mrm/assets/87670297/1f1d0bbe-7c95-4f55-a446-a715755bace8)
 ![Screenshot 2024-01-06 160330](https://github.com/Fjorin1/mrm/assets/87670297/c5d3cbc6-8825-4dce-85bc-faff01eafb79)
 ![Screenshot 2024-01-06 160445](https://github.com/Fjorin1/mrm/assets/87670297/9fd4fcf3-70d1-4035-9977-06dff0ddaf70)
