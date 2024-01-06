@@ -1,4 +1,4 @@
-# Bitte react-icons installieren
+# Bitte vorher react-icons installieren
 
 npm install react-icons
 
